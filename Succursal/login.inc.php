@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
            else{
 
             
-               $sql="SELECT * FROM users WHERE login_credentials='$login' ";
+               $sql="SELECT * FROM sucursal WHERE login_credentials='$login' ";
                $result=mysqli_query($pdo,$sql);
                $resultCheck=mysqli_num_rows($result);
                if ($resultCheck < 1) {
@@ -37,7 +37,7 @@ if (isset($_POST['submit'])) {
                             $_SESSION['u_id']=$row['id'];
                             $_SESSION['login_credentials']=$row['login_credentials'];
                         
-                            header("Location: ./AdminDashboard.php");
+                            header("Location: ./AdminSucursal.php");
                             exit();
 
 

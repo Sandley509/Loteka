@@ -245,8 +245,8 @@ require('auth_session.php');
             </li>
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-lock"></i><span>Authentication</span> </a>
                 <ul class="ml-menu">
-                    <li><a href="sign-in.html">Add admin</a></li>
-                    <li><a href="sign-up.html">Add Succursales</a></li>
+                    <li><a href="./add_admin.php">Add admin</a></li>
+                    <li><a href="./add_sucursal.php">Add Succursales</a></li>
                     <li><a href="forgot-password.html">Change succursal password</a></li>
                     <li><a href="404.html">Block Succursales</a></li>
                    <li><a href="locked.html">Locked Succursales</a></li>

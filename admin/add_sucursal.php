@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="esei_services">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Adding an administrators</title>
+    <title>Adding a Succursal</title>
 
 
     
@@ -37,10 +37,10 @@
   <body class="text-center">
     
 <main class="form-signin">
-  <form method="Post" action="add_admin.inc.php">
+  <form method="Post" action="add_sucursal.inc.php">
     <img class="mb-4" src="./assets/loteka.jpg" alt="" width="100" height="100">
     <h3>Welcome to Loteka !!!</h3>
-    <h4 class=" mb-3 fw-normal">Adding an Admin to the Systems</h4>
+    <h4 class=" mb-3 fw-normal">Let's add a new Sucursal to the systems</h4>
 
     <div class="form-floating">
       <input type="text" class="form-control" id="floatingInput" name="login" placeholder="sucursale028898" >
@@ -51,12 +51,21 @@
       <label for="floatingPassword">Password</label>
     </div>
     <div class="form-floating">
-      <input type="text" class="form-control" id="floatingPassword" name="pin" placeholder="Pin" >
-      <label for="floatingPassword">Pin</label>
+      <input type="email"  name="email" class="form-control" id="floatingPassword" placeholder="Succursal_email" >
+      <label for="floatingPassword">Sucursal_email</label>
     </div>
+    <div class="form-floating">
+      <input type="text"  name="phone" class="form-control" id="floatingPassword" placeholder="Succursal_email" >
+      <label for="floatingPassword">Sucursal_Phone_Nmber</label>
+    </div>
+    <div class="form-floating">
+      <input type="text"  name="addr" class="form-control" id="floatingPassword" placeholder="Succursal_email" required >
+      <label for="floatingPassword">Sucursal_Adress</label>
+    </div>
+   
 
    <br>
-    <button class="w-100 btn btn-lg btn-primary" name="submit" >Add Admnin</button>
+    <button class="w-100 btn btn-lg btn-primary" name="submit" >Add a Succursal</button>
     <p class="mt-5 mb-3 text-muted">&copy;esei_services 2022</p>
   </form>
 </main>
